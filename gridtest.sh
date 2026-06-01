@@ -134,7 +134,7 @@ done
 echo -e "\n=============================="
 echo "        TEST SUMMARY"
 echo "=============================="
-for ver in ${target_versions[@]}; do
+for ver in "${target_versions[@]}"; do
     echo "Python ${ver}: ${results[${ver}]}"
 done
 echo "=============================="
